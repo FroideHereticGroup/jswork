@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*
+noscript.css
+JSを無効にしているときに読み込まれる
+*/
+
+#headerContainer{
+  display: block;
+}
+
+.deferred{
+  display: none;
+}
+
+#subContainer{
+  left: 0;
+}

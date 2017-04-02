@@ -1,0 +1,104 @@
+/** style */
+
+body {
+  background: #f5f5f5;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+h2 {
+  padding: 0.5em;
+  font-size: 20px;
+  font-weight: italic;
+  line-height: 1.2em;
+  color: #39c;
+}
+
+#container {
+  margin: 20px auto 40px;
+  padding: 36px;
+  width: 760px;
+  background-color: #fff;
+}
+
+#container .article {
+  margin-bottom: 36px;
+  border-bottom: 1px dotted #39c;
+  color: #333;
+}
+
+#container .date {
+  padding-top: 0.5em;
+  text-align: right;
+  color: #aaa;
+  padding-bottom: 1em;
+}
+
+.pagetop {
+  display: none;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.pagetop:horver {
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  -ms-transition-duration: 300ms;
+  transition-duration: 300ms;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.mod-scrollto {
+  position: fixed;
+  left: 44px;
+  bottom: 44px;
+}
+
+.scrollto_1, .scrollto_2 {
+  display: block;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  opacity: 0.8;
+  color: #ddd;
+  line-height: 24px;
+  vertical-align: baseline;
+  background: #39c;
+}
+
+.scrollto_1.disabled, .disabled.scrollto_2 {
+  background: #999;
+  cursor: default;
+}
+
+.scrollto_1.disabled:hover, .disabled.scrollto_2:hover {
+  opacity: 0.8;
+}
+
+.scrollto_2 {
+  margin-top: 20px;
+}
+
+ul.disc_list {
+  list-style-type: disc;
+}

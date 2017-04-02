@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>3/19 Javascript勉強会</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link id="noScriptCSS" rel="stylesheet" href="css/noscript.css">
+  </head>
+  <body>
+    <script>
+      var elem = document.getElementById('noScriptCSS');
+      elem.parentNode.removeChild(elem);
+    </script>
+    <div id="wrapper">
+      <header id="headerContainer">
+        <h1 id="siteID">SAMPLE<span class="small">DESIGN</span></h1>
+      </header>
+      <div id="contentContainer">
+        <div id="galleryContainer" class="inner">
+          <div class="column">
+            <p class="photo">
+              <img class="deferred" src="img/loader.gif" data-original="img/01.jpg" alt="">
+            <noscript><img src="img/01.jpg" alt=""></noscript>
+            </p>
+          </div>
+          <div class="column">
+            <p class="photo">
+              <img class="deferred" src="img/loader.gif" data-original="img/02.jpg" alt="">
+            <noscript><img src="img/02.jpg" alt=""></noscript>
+            </p>
+          </div>
+        </div>
+        <div id="subContainer">
+          <nav id="mainNavigation">
+            <ul class="mouseover">
+              <li><a href="#"><i class="fa fa-search"></i><span>Search</span></a></li>
+              <li><a href="#"><i class="fa fa-bookmark"></i><span>Bookmark</span></a></li>
+              <li><a href="#"><i class="fa fa-tags"></i><span>Tags</span></a></li>
+              <li><a href="#"><i class="fa fa-heart"></i><span>Like</span></a></li>
+              <li><a href="#"><i class="fa fa-comment"></i><span>Comment</span></a></li>
+              <li class="separate top"><a href="#"><i class="fa fa-gear"></i><span>Setting</span></a></li>
+            </ul>
+            <p class="mainNavigation_trigger">
+              <a><i class="fa fa-bars"></i></a>
+            </p>
+          </nav>
+        </div>
+      </div>
+      <footer id="footerContainer">
+        <div class="inner">
+          <p id="copyright">SAMPLESAMPLESAMPLESAMPLE</p>
+        </div>
+      </footer>
+    </div>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
+<script src="js/script.js"></script>
+  </body>
+</html>
